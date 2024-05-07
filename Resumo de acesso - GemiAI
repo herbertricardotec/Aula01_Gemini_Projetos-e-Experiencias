@@ -1,0 +1,37 @@
+{
+  "runSettings": {
+    "temperature": 1.0,
+    "model": "models/gemini-1.5-pro-latest",
+    "candidateCount": 1,
+    "topP": 0.95,
+    "maxOutputTokens": 8192,
+    "safetySettings": [{
+      "category": "HARM_CATEGORY_HARASSMENT",
+      "threshold": "BLOCK_MEDIUM_AND_ABOVE"
+    }, {
+      "category": "HARM_CATEGORY_HATE_SPEECH",
+      "threshold": "BLOCK_MEDIUM_AND_ABOVE"
+    }, {
+      "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+      "threshold": "BLOCK_MEDIUM_AND_ABOVE"
+    }, {
+      "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+      "threshold": "BLOCK_MEDIUM_AND_ABOVE"
+    }],
+    "responseMimeType": "text/plain"
+  },
+  "multiturnPrompt": {
+    "primingExchanges": [{
+      "source": "USER",
+      "id": "1ABBD2FC-162D-4356-B708-CB31DF0A0500"
+    }],
+    "sessions": [{
+      "sessionExchanges": [{
+        "request": "\u003cdiv class\u003d\"document-embed drive-embed\" data-drive-file-name\u003d\"history.csv\" data-drive-file-id\u003d\"1JdzOgfgQphosfgrAP8I8lTLmW1lObm9G\" data-drive-file-or-folder-id\u003d\"1JdzOgfgQphosfgrAP8I8lTLmW1lObm9G\" data-drive-folder-name\u003d\"\" data-blot-name\u003d\"document-embed\" contenteditable\u003d\"false\"\u003e\u003cdiv class\u003d\"inner-container\"\u003e\u003cspan class\u003d\"document-embed-loading google-symbols\"\u003eprogress_activity\u003c/span\u003e\u003cspan class\u003d\"document-embed-icon material-symbols-outlined\" aria-hidden\u003d\"true\"\u003edocs\u003c/span\u003e\u003cspan class\u003d\"document-embed-label gmat-body-medium truncate\" title\u003d\"history.csv\" alt\u003d\"history.csv\" aria-label\u003d\"history.csv\"\u003ehistory.csv\u003c/span\u003e\u003cspan class\u003d\"document-embed-token-count gmat-body-medium\"\u003e566150 Tokens\u003c/span\u003e\u003c/div\u003e\u003c/div\u003e resumo \nsites mais acessados, em que dia, tipo de site (entretenimento / trabalho) como tenho usado o meu tempo",
+        "response": "## Análise do histórico de navegação:\n\nO histórico fornecido, que abrange até novembro de 2023, revela insights interessantes sobre os seus padrões de navegação e como você tem usado o seu tempo online. Vamos analisar os aspectos solicitados:\n\n**Sites mais acessados:**\n\n* **Gmail (604):**  É o site mais visitado, indicando a sua dependência do e-mail para comunicação e gerenciamento de tarefas.\n* **YouTube (999):** O YouTube aparece em segundo lugar, sugerindo que você consome uma quantidade significativa de conteúdo de vídeo, seja para entretenimento ou educação.\n* **SIA - Sistema de Informações Acadêmicas (422):** A plataforma da Estácio é acessada com frequência, o que é esperado, dado que você é um estudante da instituição.\n* **(20+) Facebook (548):** O Facebook também é acessado regularmente, indicando o uso para conexão social e consumo de conteúdo.\n* **Conteúdo Digital FIAP (1089):** A plataforma online da FIAP é acessada frequentemente, possivelmente para cursos ou materiais de estudo.\n\n**Dias de maior atividade:**\n\nParece haver atividade online consistente ao longo da semana, com picos nos dias de semana, sugerindo uma mistura de atividades relacionadas ao trabalho e lazer.\n\n**Tipo de sites:**\n\nObservamos uma mistura de sites relacionados a:\n\n* **Trabalho/Educação:** Gmail, SIA Estácio, Conteúdo Digital FIAP, LinkedIn, Microsoft Learn, ctc.lmsnext.com.br, portalservicos.usp.br, on.fiap.com.br. \n* **Entretenimento:** YouTube, Facebook, Instagram, Plex,  torrentfilmes.cc, comandotorrents.to\n* **Produtividade/Criatividade:** ChatGPT, Canva, SeaArt AI, eluna.ai\n\n**Como você tem usado o seu tempo:**\n\nCom base na análise, podemos inferir que você divide seu tempo online entre:\n\n* **Estudos e trabalho:** O acesso frequente a plataformas educacionais e e-mails indica um foco em aprendizado e gerenciamento de tarefas.\n* **Entretenimento:** O consumo de vídeos no YouTube e a atividade em redes sociais sugerem que você também dedica tempo ao lazer e à conexão social.\n* **Exploração de ferramentas de IA:** O uso de diversas plataformas de IA indica um interesse em novas tecnologias e sua aplicação em áreas como criação de imagens, geração de texto e aumento de produtividade.\n\n\n## Recomendações:\n\n* **Equilíbrio:** Busque um equilíbrio saudável entre atividades online relacionadas a trabalho/educação e lazer. \n* **Gestão de tempo:** Utilize ferramentas de gestão de tempo para otimizar sua produtividade e evitar distrações online.\n* **Exploração consciente:** Continue explorando novas ferramentas de IA, mas faça-o de forma consciente, avaliando sua utilidade e impacto em sua vida.\n\n**Lembre-se, este é apenas um resumo baseado nos dados fornecidos. A forma como você usa seu tempo online é única e complexa. Utilize essas informações como ponto de partida para reflexão e melhoria contínua.**\n",
+        "source": "MODEL",
+        "id": "C77C14DA-9773-40C2-930D-33C4DC6BBFA8"
+      }]
+    }]
+  }
+}
